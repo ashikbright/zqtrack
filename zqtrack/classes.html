@@ -5,7 +5,7 @@ include("connect.php");
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>About Us - Zahrathul Quran</title>
+    <title>Classes - Zahrathul Quran</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="Free HTML Templates" name="keywords" />
     <meta content="Free HTML Templates" name="description" />
@@ -49,13 +49,12 @@ include("connect.php");
         </button>
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
           <div class="navbar-nav font-weight-bold mx-auto py-0">
-            <a href="index.php" class="nav-item nav-link">Home</a>
-            <a href="about.php" class="nav-item nav-link active">About</a>
-            <a href="classes.php" class="nav-item nav-link">Classes</a>
-            <a href="teachers.php" class="nav-item nav-link">Teachers</a>
-            <a href="contact.php" class="nav-item nav-link">Gallery</a>
-         
-            <a href="#" class="nav-item nav-link">Contact</a>
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="about.html" class="nav-item nav-link ">About</a>
+            <a href="classes.html" class="nav-item nav-link active">Classes</a>
+            <a href="teachers.html" class="nav-item nav-link">Teachers</a>
+        
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
           </div>
           <a href="" class="btn btn-primary px-4">Join Class</a>
           <?php if(empty($_SESSION)){ ?>
@@ -69,49 +68,137 @@ include("connect.php");
     <!-- Navbar End -->
 
  
-    <!-- About Start -->
-    <div class="container-fluid py-5">
+    <!-- Class Start -->
+    <div class="container-fluid pt-5">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-5">
-            <img
-              class="img-fluid rounded mb-5 mb-lg-0"
-              src="img/about-1.jpeg"
-              alt=""
-            />
-          </div>
-          <div class="col-lg-7">
-          <p class="section-title pr-5">
-    <span class="pr-2">Learn About Us</span>
-</p>
-<h1 class="mb-4">Empowering Women Through Quranic Excellence</h1>
-<p>
-    At Zahrathul Quran Womens College, we are dedicated to nurturing the spiritual and academic growth of women through the memorization and understanding of the Holy Quran. Our institution stands as a sanctuary of Islamic education, providing a supportive environment where female students can embark on their journey to becoming Hafizah, preserving the sacred text of Islam in their hearts.
-</p
-            <div class="row pt-2 pb-4">
-              <div class="col-6 col-md-4">
-                <img class="img-fluid rounded" src="img/class.png" alt="" />
+        <div class="text-center pb-2">
+          <p class="section-title px-5">
+            <span class="px-2">Popular Classes</span>
+          </p>
+          <h1 class="mb-4">Classes for Female Students</h1>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 mb-5">
+            <div class="card border-0 bg-light shadow-sm pb-2">
+              <img class="card-img-top mb-2" src="img/fiqh.png" alt="" />
+              <div class="card-body text-center">
+                <h4 class="card-title">Fiqh</h4>
+                <p class="card-text">
+                  Justo ea diam stet diam ipsum no sit, ipsum vero et et diam
+                  ipsum duo et no et, ipsum ipsum erat duo amet clita duo
+                </p>
               </div>
-              <div class="col-6 col-md-8">
-                <ul class="list-inline m-0">
-                  <li class="py-2 border-top border-bottom">
-                    <i class="fa fa-check text-primary mr-3"></i>Comprehensive Hifz program tailored for female students.
-                  </li>
-                  <li class="py-2 border-bottom">
-                    <i class="fa fa-check text-primary mr-3"></i>Tajweed classes ensuring precise Quranic recitation.
-                  </li>
-                  <li class="py-2 border-bottom">
-                    <i class="fa fa-check text-primary mr-3"></i>Rigorous Islamic studies promoting holistic understanding.
-                  </li>
-                </ul>
+              <div class="card-footer bg-transparent py-4 px-5">
+                <div class="row border-bottom">
+                  <div class="col-6 py-1 text-right border-right">
+                    <strong>Age Group</strong>
+                  </div>
+                  <div class="col-6 py-1">10 - 60 Years</div>
+                </div>
+                <div class="row border-bottom">
+                  <div class="col-6 py-1 text-right border-right">
+                    <strong>Total Seats</strong>
+                  </div>
+                  <div class="col-6 py-1">50 Seats</div>
+                </div>
+                <div class="row border-bottom">
+                  <div class="col-6 py-1 text-right border-right">
+                    <strong>Class Time</strong>
+                  </div>
+                  <div class="col-6 py-1">09:00 AM- 04:00 PM</div>
+                </div>
+                <div class="row">
+                  <div class="col-6 py-1 text-right border-right">
+                    <strong>Tution Fee</strong>
+                  </div>
+                  <div class="col-6 py-1">Rs 1000 / Month</div>
+                </div>
               </div>
+              <a href="" class="btn btn-primary px-4 mx-auto mb-4">Join Now</a>
             </div>
-            <a href="" class="btn btn-primary mt-2 py-2 px-4">Learn More</a>
+          </div>
+          <div class="col-lg-4 mb-5">
+            <div class="card border-0 bg-light shadow-sm pb-2">
+              <img class="card-img-top mb-2" src="img/hifl.png" alt="" />
+              <div class="card-body text-center">
+                <h4 class="card-title">Hifl</h4>
+                <p class="card-text">
+                  Justo ea diam stet diam ipsum no sit, ipsum vero et et diam
+                  ipsum duo et no et, ipsum ipsum erat duo amet clita duo
+                </p>
+              </div>
+              <div class="card-footer bg-transparent py-4 px-5">
+                <div class="row border-bottom">
+                  <div class="col-6 py-1 text-right border-right">
+                    <strong>Age Group</strong>
+                  </div>
+                  <div class="col-6 py-1">10 - 60 Years</div>
+                </div>
+                <div class="row border-bottom">
+                  <div class="col-6 py-1 text-right border-right">
+                    <strong>Total Seats</strong>
+                  </div>
+                  <div class="col-6 py-1">50 Seats</div>
+                </div>
+                <div class="row border-bottom">
+                  <div class="col-6 py-1 text-right border-right">
+                    <strong>Class Time</strong>
+                  </div>
+                  <div class="col-6 py-1">9:00 AM - 4:00 PM</div>
+                </div>
+                <div class="row">
+                  <div class="col-6 py-1 text-right border-right">
+                    <strong>Tution Fee</strong>
+                  </div>
+                  <div class="col-6 py-1">Rs 1000 / Month</div>
+                </div>
+              </div>
+              <a href="" class="btn btn-primary px-4 mx-auto mb-4">Join Now</a>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-5">
+            <div class="card border-0 bg-light shadow-sm pb-2">
+              <img class="card-img-top mb-2" src="img/tajweed.png" alt="" />
+              <div class="card-body text-center">
+                <h4 class="card-title">Tajweed</h4>
+                <p class="card-text">
+                  Justo ea diam stet diam ipsum no sit, ipsum vero et et diam
+                  ipsum duo et no et, ipsum ipsum erat duo amet clita duo
+                </p>
+              </div>
+              <div class="card-footer bg-transparent py-4 px-5">
+                <div class="row border-bottom">
+                  <div class="col-6 py-1 text-right border-right">
+                    <strong>Age Group</strong>
+                  </div>
+                  <div class="col-6 py-1">10 - 60 Years</div>
+                </div>
+                <div class="row border-bottom">
+                  <div class="col-6 py-1 text-right border-right">
+                    <strong>Total Seats</strong>
+                  </div>
+                  <div class="col-6 py-1">50 Seats</div>
+                </div>
+                <div class="row border-bottom">
+                  <div class="col-6 py-1 text-right border-right">
+                    <strong>Class Time</strong>
+                  </div>
+                  <div class="col-6 py-1">09:00 AM - 4:00 PM</div>
+                </div>
+                <div class="row">
+                  <div class="col-6 py-1 text-right border-right">
+                    <strong>Tution Fee</strong>
+                  </div>
+                  <div class="col-6 py-1">Rs 1000 / Month</div>
+                </div>
+              </div>
+              <a href="" class="btn btn-primary px-4 mx-auto mb-4">Join Now</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- About End -->
+    <!-- Class End -->
 
    <!-- Footer Start -->
    <div
